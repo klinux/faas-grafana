@@ -1,7 +1,6 @@
 NAME:=faas-grafana
-VERSION:=4.6.3
-DOCKER_REPOSITORY:=stefanprodan
-DOCKER_IMAGE_NAME:=$(DOCKER_REPOSITORY)/$(NAME)
+VERSION:=latest
+DOCKER_IMAGE_NAME:=$(NAME)
 
 .PHONY: build
 build:
